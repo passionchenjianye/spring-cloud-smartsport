@@ -1,0 +1,15 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/passionchenjianye/xunyijia-config
+          searchPaths: config
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8081/eureka/

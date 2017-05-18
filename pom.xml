@@ -11,6 +11,7 @@
 
     <modules>
         <module>smartsport-eureka-server</module>
+        <module>smartsport-config-server</module>
     </modules>
 
 </project>
