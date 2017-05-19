@@ -16,8 +16,11 @@ public class FileOperationController {
     @Value(value = "${profile}")
     private String profile;
 
+    @Value(value = "${server.port}")
+    private String port;
+
     @GetMapping("/profile")
     String getProfileFromGitRepo() {
-        return profile;
+        return profile + "from port: " + port;
     }
 }

@@ -12,6 +12,7 @@
     <modules>
         <module>smartsport-eureka-server</module>
         <module>smartsport-config-server</module>
+        <module>smartsport-service-feign</module>
         <module>smartsport-base-disk-service</module>
     </modules>
 

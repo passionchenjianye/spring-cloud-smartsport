@@ -8,7 +8,7 @@ spring:
       server:
         git:
           uri: https://github.com/passionchenjianye/xunyijia-config
-          searchPaths: config
+          searchPaths: config  # 配置中心的配置其实是在git仓库里，通过设置git uri可以获取到相应的配置
 eureka:
     client:
       serviceUrl:
