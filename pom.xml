@@ -14,6 +14,7 @@
         <module>smartsport-config-server</module>
         <module>smartsport-service-ribbon</module>
         <module>smartsport-service-feign</module>
+        <module>smartsport-service-zuul</module>
         <module>smartsport-base-disk-service</module>
     </modules>
 
