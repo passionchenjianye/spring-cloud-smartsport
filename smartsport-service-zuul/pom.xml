@@ -5,7 +5,7 @@
 
 	<groupId>com.xunyijia.smartsport</groupId>
 	<artifactId>smartsport-service-zuul</artifactId>
-	<version>1.0-SNAPSHOT-8086</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>smartsport-service-zuul</name>
